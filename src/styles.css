@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: rgb(250, 151, 168);
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --main-font: "Roboto", sans-serif;
@@ -20,16 +20,18 @@ body {
 }
 
 .content {
+  position: relative;
   margin-left: 57.5px;
 }
 
 .name {
-  color: rgb(250, 151, 168);
+  color: var(--primary-color);
 }
 
 .greetings {
   font-size: 80px;
   line-height: 1.1;
+  margin-bottom: 0;
 }
 
 .hello,
@@ -37,13 +39,44 @@ body {
   color: rgb(177, 177, 177);
 }
 
+.developer {
+  margin-bottom: 0;
+  line-height: 0.2;
+}
+
 .hello {
   font-size: 40px;
   line-height: 0.5;
 }
 
-.developer {
-  line-height: 0.1;
+.contact-btn {
+  padding: 10px 20px;
+  margin-top: 65px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: rgb(177, 177, 177);
+}
+
+.footer {
+  background: rgb(250, 151, 168);
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+}
+
+.icons {
+  padding: 0 15px;
+  font-size: 25px;
 }
 
 @media (min-width: 576px) {
