@@ -6,6 +6,66 @@
 }
 
 body {
-  margin: 100px 0 !important;
   font-family: "Roboto", sans-serif !important;
+  padding: 0;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.banner-image {
+  background-image: url("../images/coding_2_1.jpg");
+  background-size: cover;
+}
+
+.content {
+  margin-left: 57.5px;
+}
+
+.name {
+  color: rgb(250, 151, 168);
+}
+
+.greetings {
+  font-size: 80px;
+  line-height: 1.1;
+}
+
+.hello,
+.developer {
+  color: rgb(177, 177, 177);
+}
+
+.hello {
+  font-size: 40px;
+  line-height: 0.5;
+}
+
+.developer {
+  line-height: 0.1;
+}
+
+@media (min-width: 576px) {
+  .greetings {
+    font-size: 150px;
+  }
+
+  .hello {
+    font-size: 75px;
+  }
+
+  .developer {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .greetings {
+    font-size: 70px;
+  }
+
+  .content {
+    margin-left: 40px;
+  }
 }
