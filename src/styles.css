@@ -79,6 +79,10 @@ body {
   font-size: 25px;
 }
 
+.icons:hover {
+  color: rgb(218, 218, 218) !important;
+}
+
 @media (min-width: 576px) {
   .greetings {
     font-size: 150px;
