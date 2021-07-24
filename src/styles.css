@@ -41,7 +41,7 @@ body {
 
 .developer {
   margin-bottom: 0;
-  line-height: 0.2;
+  line-height: 0.8;
 }
 
 .hello {
@@ -75,6 +75,7 @@ body {
 .built-with {
   font-size: 10px;
   text-decoration: underline;
+  color: rgb(177, 177, 177);
 }
 
 .services {
@@ -161,5 +162,44 @@ body {
 
   .content {
     margin-left: 40px;
+    margin-top: 200px;
+  }
+
+  .hello {
+    font-size: 35px;
+  }
+
+  .greetings {
+    font-size: 50px;
+  }
+
+  .developer {
+    font-size: 15px;
+  }
+
+  .recent-projects {
+    margin: 20px !important;
+  }
+
+  .last-projects,
+  .services-h3 {
+    font-size: 33px;
+  }
+
+  .services {
+    margin: 20px;
+  }
+
+  .app-info,
+  .app-name {
+    display: none;
+  }
+
+  .built-with {
+    font-size: 8px;
+  }
+
+  .icons {
+    font-size: 20px;
   }
 }
