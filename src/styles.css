@@ -69,10 +69,22 @@ body {
 
 .last-projects {
   color: var(--primary-color);
+  font-size: 50px;
+}
+
+.built-with {
+  font-size: 10px;
+  text-decoration: underline;
 }
 
 .services {
-  background: rgb(177, 177, 177);
+  background: white;
+  padding-bottom: 60px;
+}
+
+.services-h3 {
+  color: var(--primary-color);
+  font-size: 50px;
 }
 
 .services-content {
@@ -81,21 +93,30 @@ body {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
+.services-content:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
 .services-icons {
   font-size: 35px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.services-info {
+  margin-bottom: 0;
+  font-size: 11px;
 }
 
 .footer {
   position: static;
   background: var(--primary-color);
-  padding: 15px 0;
+  padding: 10px 0;
   color: white;
   text-align: center;
 }
 
 .icons {
-  padding: 0 15px;
+  padding: 0 30px;
   font-size: 25px;
 }
 
@@ -110,11 +131,12 @@ body {
 
 .imgs {
   max-width: 100%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
 .imgs:hover {
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 
