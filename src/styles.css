@@ -199,6 +199,29 @@ body {
   }
 }
 
+@media (max-width: 771px) {
+  .greetings {
+    font-size: 80px;
+  }
+
+  .content {
+    margin-left: 40px;
+    margin-top: 200px;
+  }
+
+  .hello {
+    font-size: 35px;
+  }
+
+  .developer {
+    font-size: 15px;
+  }
+
+  .services-title {
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 576px) {
   .greetings {
     font-size: 50px;
@@ -258,7 +281,7 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .greetings {
     font-size: 40px;
   }
@@ -279,9 +302,31 @@ body {
   .icons {
     padding: 0 20px;
   }
+}
 
-  .services-container-responsive {
-    padding: 0 30px !important;
-    margin-bottom: 10px;
+@media (min-width: 1500px) {
+  .greetings {
+    font-size: 150px !important;
+  }
+
+  .content {
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+
+  .hello {
+    font-size: 75px;
+  }
+
+  .developer {
+    font-size: 35px;
+  }
+
+  .services-icons {
+    font-size: 40px;
+  }
+
+  .icons {
+    padding: 0 30px;
   }
 }
