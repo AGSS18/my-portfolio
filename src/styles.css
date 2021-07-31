@@ -155,6 +155,72 @@ body {
   cursor: pointer;
 }
 
+.hero-about-container {
+  height: 450px;
+  background-image: url("../images/about-hero.jpg.png");
+  background-size: cover;
+}
+
+.about-h1,
+.work-h1 {
+  font-size: 110px;
+  color: var(--primary-color);
+}
+
+.coder-about {
+  color: white !important;
+}
+
+.about-description {
+  margin-top: 50px !important;
+  text-align: justify;
+}
+
+.skills-container {
+  height: 550px;
+}
+
+.professional-skills-h3 {
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.work-skills-h3 {
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.interest-container {
+  height: 270px;
+}
+
+.interest-h3 {
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.interest-row {
+  padding-top: 50px;
+}
+
+.interest-icons {
+  font-size: 50px;
+}
+
+.interest-icons-text {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.hero-work-container {
+  height: 450px;
+  background-image: url("../images/about-hero.jpg.png");
+  background-size: cover;
+}
+
 @media (min-width: 576px) {
   .greetings {
     font-size: 110px;
