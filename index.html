@@ -81,8 +81,8 @@
     <div class="banner-image w-100 vh-100 d-flex align-items-center">
       <div class="content">
         <h2 class="hello">Hello,</h2>
-        <h1 class="text-white greetings">
-          I'm <span class="name">Ana Sala</span>
+        <h1 class=" greetings">
+         <span class="iam">I'm </span><span class="name">Ana Sala</span>
         </h1>
         <h5 class="developer">Front-end developer</h5>
         <button class="contact-btn">
@@ -96,13 +96,13 @@
       <h3 class="mt-5 mb-5 text-center last-projects">My latest projects</h3>
       <div class="row recent-projects">
         <div class="col-sm-4">
-          <a href="https://flamboyant-bell-288597.netlify.app/" target="_blank"><img src="images/weather-app.PNG" alt="" class="imgs p-3 mb-3"/></a>
+          <a href="https://flamboyant-bell-288597.netlify.app/" target="_blank"><img onmouseover="setNewWeatherImage()" onmouseout="setOldWeatherImage()" src="images/weather-app- b&n.PNG" alt="" class="imgs p-3 mb-3" id="weather-image"/></a>
         </div>
         <div class="col-sm-4">
-          <img src="images/movies-app.PNG" alt="" class="imgs p-3 mb-3"/>
+          <img onmouseover="setNewMoviesImage()" onmouseout="setOldMoviesImage()" src="images/movies-app - b&n.PNG" alt="" class="imgs p-3 mb-3" id="movies-image"/>
         </div>
         <div class="col-sm-4">
-          <img src="images/calculator-app.PNG" alt="" class="imgs p-3"/>
+          <img onmouseover="setNewCalculatorImage()" onmouseout="setOldCalculatorImage()" src="images/calculator-app- b&n.PNG" alt="" class="imgs p-3" id="calculator-image"/>
         </div>
       </div>
       <div class="row app-name">
@@ -270,22 +270,22 @@
       <a
         href="https://www.linkedin.com/in/ana-sala-968758208/"
         target="_blank"
-        class="icons text-white"
+        class="icons"
         ><i class="fab fa-linkedin"></i
       ></a>
       <a
         href="mailto:georgina.sala18@gmail.com"
         target="_blank"
-        class="icons text-white"
+        class="icons"
         ><i class="far fa-envelope"></i
       ></a>
       <a
         href="https://github.com/AGSS18"
         target="_blank"
-        class="icons text-white"
+        class="icons"
         ><i class="fab fa-github"></i
       ></a>
-      <a href="https://wa.me/528116090581" target="_blank" class="icons text-white"
+      <a href="https://wa.me/528116090581" target="_blank" class="icons"
         ><i class="fab fa-whatsapp"></i
       ></a>
     </div>
