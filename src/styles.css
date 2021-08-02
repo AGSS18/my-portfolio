@@ -182,7 +182,6 @@ body {
 
 .imgs:hover {
   border: 5px solid var(--fifth-color);
-  /*box-shadow: var(--primary-box-shadow);*/
   cursor: pointer;
 }
 
@@ -209,7 +208,7 @@ body {
 }
 
 .skills-container {
-  height: 550px;
+  height: fit-content;
 }
 
 .professional-skills-h3 {
@@ -218,10 +217,30 @@ body {
   font-weight: 900;
 }
 
+.porcent-skills {
+  padding: 100px 0px;
+  border: 5px solid var(--third-color);
+  border-radius: 50%;
+  font-size: 40px;
+  color: var(--third-color);
+}
+
+.skill-porcent-name {
+  color: var(--fourth-color);
+  font-weight: 900;
+  font-size: 25px;
+}
+
 .work-skills-h3 {
   color: var(--secondary-color);
   font-size: 50px;
   font-weight: 900;
+}
+
+.work-skills-name {
+  color: var(--fourth-color);
+  font-weight: 900;
+  font-size: 25px;
 }
 
 .interest-container {
@@ -294,13 +313,13 @@ body {
   padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: rgb(100, 197, 188);
-  color: white;
+  background: var(--fourth-color);
+  color: var(--secondary-color);
 }
 
 .app-links:hover {
-  color: white;
-  background-color: rgb(250, 151, 168, 0.9);
+  color: var(--third-color);
+  background-color: var(--secondary-color);
   box-shadow: var(--box-shadow);
 }
 
