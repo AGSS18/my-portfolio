@@ -108,6 +108,7 @@
             src="images/weather-app- b&n.PNG"
             alt=""
             class="imgs-work mt-5"
+            id="weather-image"
           />
           <h5 class="app-name mt-4">Weather App</h5>
           <p class="built-with">
@@ -118,6 +119,8 @@
             cities around the world. With location and favorite cities.
           </p>
           <a
+            onmouseover="setNewWeatherImage()"
+            onmouseout="setOldWeatherImage()"
             href="https://flamboyant-bell-288597.netlify.app/"
             target="_blank"
             class="app-links"
@@ -129,6 +132,7 @@
             src="images/movies-app - b&n.PNG"
             alt=""
             class="imgs-work mt-5"
+            id="movies-image"
           />
           <h5 class="app-name mt-4">Movies App</h5>
           <p class="built-with">
@@ -138,68 +142,20 @@
             This app gives random recomendations of movies, tv shows and books
             depending on the genre selected.
           </p>
-          <a href="" class="app-links">Launch app</a>
-        </div>
-        <div class="col-4 text-center">
-          <img
-            src="images/calculator-app- b&n.PNG"
-            alt=""
-            class="imgs-work mt-5"
-          />
-          <h5 class="app-name mt-4">Calculator App</h5>
-          <p class="built-with">
-            Built with HTML, CSS, JavaScript and Bootstrap
-          </p>
-          <p class="app-info mb-4">
-            This app allows to perform quick calculations, along with a large
-            collection of calculators on math, finance, fitness, and more.
-          </p>
-          <a href="" class="app-links">Launch app</a>
-        </div>
-      </div>
-      <div class="row recent-projects">
-        <div class="col-4 text-center">
-          <img
-            src="images/weather-app- b&n.PNG"
-            alt=""
-            class="imgs-work mt-5"
-          />
-          <h5 class="app-name mt-4">Weather App</h5>
-          <p class="built-with">
-            Built with HTML, CSS, JavaScript and Bootstrap
-          </p>
-          <p class="app-info mb-4">
-            This app shows real time weather, 7 day forcast, of more than 2,000
-            cities around the world. With location and favorite cities.
-          </p>
           <a
-            href="https://flamboyant-bell-288597.netlify.app/"
-            target="_blank"
+            onmouseover="setNewMoviesImage()"
+            onmouseout="setOldMoviesImage()"
+            href=""
             class="app-links"
             >Launch app</a
           >
         </div>
         <div class="col-4 text-center">
           <img
-            src="images/movies-app - b&n.PNG"
-            alt=""
-            class="imgs-work mt-5"
-          />
-          <h5 class="app-name mt-4">Movies App</h5>
-          <p class="built-with">
-            Built with HTML, CSS, JavaScript and Bootstrap
-          </p>
-          <p class="app-info mb-4">
-            This app gives random recomendations of movies, tv shows and books
-            depending on the genre selected.
-          </p>
-          <a href="" class="app-links">Launch app</a>
-        </div>
-        <div class="col-4 text-center">
-          <img
             src="images/calculator-app- b&n.PNG"
             alt=""
             class="imgs-work mt-5"
+            id="calculator-image"
           />
           <h5 class="app-name mt-4">Calculator App</h5>
           <p class="built-with">
@@ -209,7 +165,13 @@
             This app allows to perform quick calculations, along with a large
             collection of calculators on math, finance, fitness, and more.
           </p>
-          <a href="" class="app-links">Launch app</a>
+          <a
+            onmouseover="setNewCalculatorImage()"
+            onmouseout="setOldCalculatorImage()"
+            href=""
+            class="app-links"
+            >Launch app</a
+          >
         </div>
       </div>
     </div>
