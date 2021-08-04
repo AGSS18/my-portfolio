@@ -35,10 +35,10 @@ function setOldCalculatorImage() {
 
 let htmlNumb = document.getElementById("html-numb");
 let counterHtml = 0;
-let timerHtml = setInterval(htmlCounting, 80);
+let timerHtml = setInterval(htmlCounting, 100);
 
  function htmlCounting(){
-    if(counterHtml == 50){
+    if(counterHtml == 80){
         clearInterval();
     }else {
         counterHtml+=1;
@@ -48,10 +48,10 @@ let timerHtml = setInterval(htmlCounting, 80);
 
 let cssNumb = document.getElementById("css-numb");
 let counterCss = 0;
-let timerCss = setInterval(cssCounting, 150);
+let timerCss = setInterval(cssCounting, 80);
 
  function cssCounting(){
-    if(counterCss == 25){
+    if(counterCss == 50){
         clearInterval();
     }else {
         counterCss+=1;
@@ -61,10 +61,10 @@ let timerCss = setInterval(cssCounting, 150);
 
 let jsNumb = document.getElementById("js-numb");
 let counterJs = 0;
-let timerJs = setInterval(jsCounting, 85);
+let timerJs = setInterval(jsCounting, 98);
 
  function jsCounting(){
-    if(counterJs == 70){
+    if(counterJs == 40){
         clearInterval();
     }else {
         counterJs+=1;
@@ -74,10 +74,10 @@ let timerJs = setInterval(jsCounting, 85);
 
 let bootNumb = document.getElementById("boot-numb");
 let counterBoot = 0;
-let timerBoot = setInterval(bootCounting, 80);
+let timerBoot = setInterval(bootCounting, 83);
 
  function bootCounting(){
-    if(counterBoot == 50){
+    if(counterBoot == 60){
         clearInterval();
     }else {
         counterBoot+=1;

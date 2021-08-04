@@ -188,6 +188,7 @@ body {
 .hero-about-container {
   background-image: url("../images/about-hero_4.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about-h1,
@@ -294,8 +295,14 @@ body {
 }
 
 .html-circle .html-right .html-progress {
-  animation: right 4s linear both;
+  animation: right-html 4s linear both;
   animation-delay: 4s;
+}
+
+@keyframes right-html {
+  100% {
+    transform: rotate(108deg);
+  }
 }
 
 .html-circle .css-left .html-progress {
@@ -305,7 +312,7 @@ body {
 
 @keyframes left-css {
   100% {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
 }
 
@@ -326,7 +333,7 @@ body {
 
 @keyframes left-js {
   100% {
-    transform: rotate(180deg);
+    transform: rotate(144deg);
   }
 }
 
@@ -340,9 +347,30 @@ body {
   animation-delay: 4s;
 }
 
-@keyframes right-js {
+.html-circle .boot-left .html-progress {
+  z-index: 1;
+  animation: left-boot 4s linear both;
+}
+
+@keyframes left-boot {
   100% {
-    transform: rotate(85deg);
+    transform: rotate(180deg);
+  }
+}
+
+.html-circle .boot-right {
+  z-index: 3;
+  transform: rotate(180deg);
+}
+
+.html-circle .boot-right .html-progress {
+  animation: right-boot 1s linear both;
+  animation-delay: 4s;
+}
+
+@keyframes right-boot {
+  100% {
+    transform: rotate(36deg);
   }
 }
 
@@ -665,6 +693,10 @@ body {
   .work-skills-responsive {
     display: none;
   }
+
+  .about-h1 {
+    font-size: 150px;
+  }
 }
 
 @media (max-width: 771px) {
@@ -687,6 +719,14 @@ body {
 
   .services-title {
     font-size: 11px;
+  }
+
+  .about-description {
+    font-size: 25px;
+  }
+
+  .html-circular {
+    transform: scale(1.6);
   }
 }
 
@@ -763,7 +803,7 @@ body {
 
   .about-description {
     margin: 0px 15px 0px !important;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .professional-skills-h3,
@@ -801,6 +841,11 @@ body {
   .interest-icons-text {
     font-size: 12px;
   }
+
+  .work-skills-row-two,
+  .work-skills-row-one {
+    margin: 0 20px !important;
+  }
 }
 
 @media (max-width: 350px) {
@@ -823,6 +868,21 @@ body {
 
   .icons {
     padding: 0 20px;
+  }
+
+  .about-h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 280px) {
+  .about-h1 {
+    font-size: 50px;
+  }
+
+  .work-skills-row-two,
+  .work-skills-row-one {
+    margin: 0 10px !important;
   }
 }
 
@@ -850,5 +910,26 @@ body {
 
   .icons {
     padding: 0 30px;
+  }
+
+  .about-h1 {
+    font-size: 140px;
+  }
+
+  .about-description {
+    font-size: 30px;
+  }
+
+  .html-circular {
+    transform: scale(2.5);
+  }
+
+  .porcent-skills {
+    font-size: 30px;
+    padding-top: 85px;
+  }
+
+  .work-skills-name {
+    font-size: 30px;
   }
 }
