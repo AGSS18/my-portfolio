@@ -194,6 +194,7 @@ body {
 .work-h1 {
   font-size: 110px;
   color: var(--secondary-color);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
 }
 
 .coder-about {
@@ -351,16 +352,127 @@ body {
   font-size: 25px;
 }
 
-.work-skills-h3 {
+.work-skills-h3,
+.languages-h3 {
   color: var(--secondary-color);
   font-size: 50px;
   font-weight: 900;
 }
 
-.work-skills-name {
-  color: var(--fourth-color);
+.work-skills-name,
+.languages-name {
+  color: var(--third-color);
   font-weight: 900;
   font-size: 25px;
+}
+
+.language-bar {
+  background: var(--fifth-color);
+  display: block;
+  height: 18px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.language-bar span {
+  height: 18px;
+  float: left;
+  background: var(--primary-color);
+}
+
+.languages-name {
+  margin-bottom: 0;
+}
+
+.languages-numb {
+  margin-bottom: 0;
+}
+
+.spanish {
+  width: 100%;
+  animation: spanish 8s;
+}
+
+.spanish-numb {
+  color: white;
+  margin-left: 83%;
+  animation: numb-spanish 8s;
+}
+
+@keyframes spanish {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes numb-spanish {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 83%;
+  }
+}
+
+.english {
+  width: 90%;
+  animation: english 8s;
+}
+
+.english-numb {
+  color: white;
+  margin-left: 75%;
+  animation: numb-english 8s;
+}
+
+@keyframes english {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes numb-english {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 75%;
+  }
+}
+
+.french {
+  width: 50%;
+  animation: french 8s;
+}
+
+.french-numb {
+  color: white;
+  margin-left: 39%;
+  animation: numb-french 8s;
+}
+
+@keyframes french {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes numb-french {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 39%;
+  }
 }
 
 .interest-container {
@@ -368,6 +480,7 @@ body {
 }
 
 .interest-h3 {
+  margin-top: 55px;
   color: var(--secondary-color);
   font-size: 50px;
   font-weight: 900;
