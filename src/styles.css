@@ -796,7 +796,8 @@ body {
     font-size: 20px;
   }
 
-  .about-h1 {
+  .about-h1,
+  .work-h1 {
     font-size: 70px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
   }
@@ -804,6 +805,11 @@ body {
   .about-description {
     margin: 0px 15px 0px !important;
     font-size: 18px;
+  }
+
+  .work-description {
+    font-size: 18px;
+    margin: 0 15px;
   }
 
   .professional-skills-h3,
@@ -870,13 +876,15 @@ body {
     padding: 0 20px;
   }
 
-  .about-h1 {
+  .about-h1,
+  .work-h1 {
     font-size: 60px;
   }
 }
 
 @media (max-width: 280px) {
-  .about-h1 {
+  .about-h1,
+  .work-h1 {
     font-size: 50px;
   }
 
@@ -912,8 +920,14 @@ body {
     padding: 0 30px;
   }
 
-  .about-h1 {
+  .about-h1,
+  .work-h1 {
     font-size: 140px;
+  }
+
+  .nav-link,
+  .navbar-brand {
+    font-size: 22px !important;
   }
 
   .about-description {
