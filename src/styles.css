@@ -661,6 +661,10 @@ body {
   .interest-container-responsive {
     display: none;
   }
+
+  .work-skills-responsive {
+    display: none;
+  }
 }
 
 @media (max-width: 771px) {
@@ -721,6 +725,10 @@ body {
     display: none;
   }
 
+  .work-skills {
+    display: none;
+  }
+
   .services-container-responsive {
     padding: 0 16px !important;
     margin-bottom: 10px;
@@ -772,6 +780,10 @@ body {
 
   .languages {
     margin-top: 0px !important;
+  }
+
+  .languages-container {
+    margin-left: 10%;
   }
 
   .english-name {
