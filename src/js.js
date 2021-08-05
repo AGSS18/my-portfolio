@@ -123,3 +123,4 @@ let timerFrench = setInterval(frenchCounting, 110);
         frenchNumb.innerText = counterFrench + "%";
     }
 }
+

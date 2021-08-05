@@ -19,6 +19,18 @@ body {
   color: white !important;
 }
 
+.home-link-index {
+  text-decoration: underline !important;
+}
+
+.about-link-about {
+  text-decoration: underline !important;
+}
+
+.work-link-projects {
+  text-decoration: underline !important;
+}
+
 .banner-image {
   background-image: url("../images/coding_2_1.jpg");
   background-size: cover;
