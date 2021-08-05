@@ -783,6 +783,7 @@ body {
   }
 
   .services-container-responsive {
+    color: var(--third-color);
     padding: 0 16px !important;
     margin-bottom: 10px;
   }
