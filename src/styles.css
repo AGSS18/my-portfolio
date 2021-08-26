@@ -84,7 +84,7 @@ body {
 }
 
 .contact-link {
-  font-size: 20px;
+  /*font-size: 20px;*/
   text-decoration: none;
   color: white;
 }
@@ -547,13 +547,13 @@ body {
 }
 
 .french {
-  width: 50%;
+  width: 30%;
   animation: french 8s;
 }
 
 .french-numb {
   color: white;
-  margin-left: 39%;
+  margin-left: 21%;
   animation: numb-french 8s;
 }
 
@@ -562,7 +562,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 30%;
   }
 }
 
@@ -571,7 +571,7 @@ body {
     margin-left: 0%;
   }
   100% {
-    margin-left: 39%;
+    margin-left: 21%;
   }
 }
 

@@ -116,7 +116,7 @@ let counterFrench = 0;
 let timerFrench = setInterval(frenchCounting, 110);
 
  function frenchCounting(){
-    if(counterFrench == 50){
+    if(counterFrench == 30){
         clearInterval();
     }else {
         counterFrench+=1;
